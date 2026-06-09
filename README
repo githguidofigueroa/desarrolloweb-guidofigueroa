@@ -1,0 +1,74 @@
+# Sureña – Fábrica de Cerveza Artesanal 🍺
+
+Sitio web institucional de **Sureña**, una fábrica de cerveza artesanal de Zona Sur, Quilmes, Buenos Aires. Desarrollado como proyecto final del curso de Desarrollo Web en CoderHouse.
+
+> Proyecto de cursada — Top 10 del curso 🏆
+
+---
+
+## Páginas
+
+- **Inicio** — Presentación de las cervezas más destacadas
+- **Nosotros** — Historia y trayectoria de la empresa
+- **Nuestros Productos** — Catálogo completo de variedades (IPA, Pale Ale, Stout, Honey, Golden Ale, Red Lager)
+- **Nuestros Servicios** — Alquiler de chopera, contratación de barra, eventos empresariales y distribución puerta a puerta
+- **Contacto** — Formulario de contacto
+
+---
+
+## Tecnologías utilizadas
+
+- **HTML5** — Estructura semántica
+- **SCSS** — Estilos organizados por componentes y páginas, compilados a CSS
+- **Bootstrap 5.3** — Grid responsive y componente de navbar hamburguesa
+- **Google Fonts** — Tipografías Permanent Marker y Montserrat
+
+---
+
+## Estructura del proyecto
+
+```
+├── index.html
+├── pages/
+│   ├── nosotros.html
+│   ├── nuestrosproductos.html
+│   ├── nuestrosservicios.html
+│   └── contacto.html
+├── css/
+│   └── styles.css
+├── sass/
+│   ├── main.scss
+│   ├── _base.scss
+│   ├── components/
+│   │   ├── _header.scss
+│   │   ├── _nav.scss
+│   │   └── _footer.scss
+│   └── pages/
+│       ├── _index.scss
+│       ├── _nosotros.scss
+│       ├── _nuestrosproductos.scss
+│       ├── _nuestrosservicios.scss
+│       └── _contacto.scss
+└── img/
+```
+
+---
+
+## Cómo visualizarlo
+
+Por ser un sitio estático (sin Node ni bundler), no requiere instalación. Dos opciones:
+
+**Opción 1 — Live Server (VS Code / Codespace)**
+1. Abrir la carpeta en VS Code
+2. Instalar la extensión **Live Server** (Ritwick Dey)
+3. Clic derecho en `index.html` → Open with Live Server
+
+**Opción 2 — Directo en el navegador**
+1. Clonar o descargar el repositorio
+2. Abrir `index.html` directamente en el navegador
+
+---
+
+## Autor
+
+**Guido Figueroa** — CoderHouse, Desarrollo Web — 2024
